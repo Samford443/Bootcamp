@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table align="center" style="background-color: mediumblue; color: orange">
+      <form action="">
+        <tr>
+          <td colspan="2" align="center">Sign up</td>
+        </tr>
+        <tr>
+          <td>First Name</td>
+          <td>
+            <input type="text" placeholder="Enter your First Name" required />
+          </td>
+        </tr>
+        <tr>
+          <td>Last Name</td>
+          <td>
+            <input type="text" placeholder="Enter your Last Name" required />
+          </td>
+        </tr>
+        <tr>
+          <td>Date of Birth</td>
+          <td><input type="date" required /></td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male" required />
+            <label for="female">Female</label>
+            <input
+              type="radio"
+              name="gender"
+              id="female"
+              value="female"
+              required
+            />
+            <label for="other">Other</label>
+            <input
+              type="radio"
+              name="gender"
+              id="other"
+              value="other"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Country</td>
+          <td>
+            <input
+              type="text"
+              placeholder="Enter your Country of Residence"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td>
+            <input
+              type="email"
+              placeholder="Please enter your email"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Phone Number</td>
+          <td>
+            <input
+              type="tel"
+              placeholder="Please enter your phone number"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td>
+            <input
+              type="password"
+              placeholder="Please enter password"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Confirm Password</td>
+          <td>
+            <input
+              type="password"
+              placeholder="Please confirm password"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td align="right"><input type="submit" value="Submit" /></td>
+          <td align="left"><input type="reset" value="Cancel" /></td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
