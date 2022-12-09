@@ -1,0 +1,29 @@
+{
+
+    "workbench.iconTheme": "vscode-icons",
+
+    "liveServer.settings.donotShowInfoMsg": true,
+
+    "[html]": {
+
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+
+    },
+
+    "emmet.triggerExpansionOnTab": true,
+
+    "editor.formatOnSave": true,
+
+    "editor.codeActionsOnSave": {
+
+   
+
+    },
+
+    "color-highlight.sass.includePaths": [
+
+   
+
+    ]
+
+}
