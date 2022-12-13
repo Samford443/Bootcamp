@@ -1,0 +1,27 @@
+/* body{
+    background-image: url(/HTML/Image/Autumn.jpg);
+     background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+} */
+
+.PFP{
+    border-radius: 50%;
+}
+
+.div1{ 
+    background-color: aqua;
+}
+
+.div2{
+    background: url(/HTML/Image/Autumn.jpg) no-repeat center center
+    
+}
+
+.div3{
+    background-image: url(/HTML/Image/Autumn.jpg);
+    border-style: solid;
+    border-color: coral;
+    border-width: 5px;
+    border-radius: 10%;
+}
