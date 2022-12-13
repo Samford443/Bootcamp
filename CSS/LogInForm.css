@@ -1,0 +1,42 @@
+#submit{
+    background-color: lightgreen;
+    color:white;
+    border: none;
+    padding: 4px 7px 4px 7px;
+    border-radius:12%
+}
+
+#submit:hover{
+    background-color: white;
+    color: lightgreen;
+    cursor: pointer;
+}
+
+#cancel{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 4px 7px 4px 7px;
+    border-radius: 12%;
+}
+
+#cancel:hover{
+    background-color: white;
+    color:red;
+    cursor: pointer;
+}
+
+#Back{
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    margin: auto;
+    color: black;
+    background-color: aqua;
+    padding: 8px 5px 10px 10px;
+}
+
+#Back:hover{
+    color: aqua;
+    background-color: black;
+}
