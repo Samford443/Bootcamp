@@ -1,0 +1,16 @@
+.FloatingImage{
+    height: 300px;
+    width: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+.image2{
+    float: left;
+    margin-right: 20px;
+}
+
+.Div1{
+    border: 2px solid;
+    overflow: auto;
+}
