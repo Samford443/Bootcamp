@@ -1,0 +1,42 @@
+.p1{
+    font-size: 5rem;
+}
+
+.p2{
+    font-size: 5em;
+}
+
+.p3{
+    font-size: 5vh;
+}
+
+.p4{
+    font-size: 5vw;
+}
+
+.p5{
+    font-size: 5px;
+     
+}
+
+.p6{
+    font-size: 5%;
+}
+
+@media (min-width: 700px) and (max-width: 900px){
+    .div2{
+        background-color: blue;        
+    }
+    .div2::before{
+        content: "The screen width is between 700 and 900 pixels - ";
+    }
+}
+
+@media (min-width: 900px) and (max-width:1000px){
+    .div2{
+        background-color: red;
+    }
+    .div2::after{
+        content: " - The screen width is between 900 and 1000 pixels";
+    }
+}

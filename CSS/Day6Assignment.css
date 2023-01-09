@@ -1,0 +1,53 @@
+:root{
+    --bgimg: url("../../HTML/Image/Purple.png");
+    --bgcolor:aqua
+}
+
+.bgimg{
+    background: var(--bgimg);
+    height: 100px;
+    width: 100px;
+    animation-name: imganimation;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    position: relative;
+}
+
+.bgcolor{
+    background-color: var(--bgcolor);
+    height: 100px;
+    width: 100px;
+    animation-name: coloranimation;
+    animation-duration: 10s;
+    animation-delay: 13s;
+    animation-iteration-count: 3;
+    
+}
+
+@keyframes imganimation{
+    0%{left:0px;top: 0px;}
+    33%{left:20%;top: 20%;background: url(../HTML/Image/dk.png);}
+    66%{left: 40%;top: 40%;background: url(/HTML/Image/Blue.png);}
+    100%{left: 60%;top: 60%;background: url(/HTML/Image/Yellow.jpg);}
+}
+
+@keyframes coloranimation{
+    33%{background-color: coral;}
+    66%{background-color: teal;}
+    100%{background-color: brown;}
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    transition: background-color 2s, color 2s, width 2s, height 2s, font-size 2s;
+}
+
+button:hover{
+    background-color: crimson;
+    color: azure;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+}
